@@ -1,0 +1,218 @@
+html, body {
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	color: #001f61;
+}
+
+h1, h2, h3, .fw-bold {
+	font-weight: 700;
+}
+
+h4, h5, h6 {
+	font-weight: 600;
+}
+
+p, a, li, input, button {
+	font-weight: 400;
+}
+
+.my-hero {
+	min-height: 820px;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.text-primary {
+	color: #001f61 !important;
+}
+
+.bg-primary {
+	background-color: #032574 !important;
+}
+
+.bg-secondary {
+	background-color: #032574 !important;
+}
+
+.list-unstyled {
+	text-align: left;
+}
+
+.list-unstyled li {
+	border-bottom: 1px solid #7a82d9;
+}
+
+.service-link {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	margin: 1em 0 1em 0;
+	line-height: 1.5;
+	font-weight: 500;
+}
+
+.service-link:hover {
+	text-decoration: underline;
+}
+
+.service-link span {
+	float: right;
+	font-size: 1.3rem;
+}
+
+.consultation {
+	background: url("/images/right-half-logo.png") no-repeat right center;
+	background-size: contain;
+	background-color: #032574;
+	min-height: 600px;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+.consultation .card {
+	background: #fff;
+	color: #001f61;
+	border: none;
+}
+
+.fw-bold.lh-base {
+	text-align: center;
+	line-height: 1.3 !important;
+}
+
+.my-hero {
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.info-37 {
+	font-weight: 500;
+	font-size: 1em;
+	padding: 15px 50px;
+	border-radius: 30px;
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.info-37 span {
+	color: #032574;
+}
+
+.explore {
+	height: 100%;
+	background-color: #121535;
+	padding: 75px 200px 75px 75px;
+	border-radius: 20px 0 0 20px;
+}
+
+.service-links {
+	padding: 60px 60px;
+}
+
+.card.h-100 {
+	background-color: #edf1f2;
+}
+
+.card-body.flex-fill {
+	padding: 35px;
+}
+
+.card-img-right {
+	height: 100%;
+	padding: 15px;
+}
+
+.card.rounded-4.schedule {
+	margin: 40px 140px 40px 0;
+}
+
+.info {
+	padding: 100px;
+}
+
+.info p {
+	color: #dadfeb !important;
+	line-height: 1.5rem;
+}
+
+@media ( max-width : 1200px) {
+	.info {
+		padding: 50px 60px;
+	}
+	.card.rounded-4.schedule {
+		margin: 40px 0 40px 0;
+	}
+}
+
+@media ( max-width : 992px) {
+	.explore {
+		height: 100%;
+		border-radius: 20px 20px 0 0 !important;
+		padding: 75px;
+		text-align: left;
+	}
+	.info {
+		padding: 50px;
+	}
+	.card.rounded-4.schedule {
+		margin: 40px;
+	}
+}
+
+@media ( max-width : 768px) {
+	.consultation {
+		background: #032574;
+	}
+	.card-img-right {
+		max-width: 100%;
+	}
+}
+
+.has-error-border {
+	border-color: #f8285a;
+}
+
+.help-block {
+	color: #f8285a;
+	font-size: 0.8125rem;
+	line-height: 1.525rem;
+}
+
+pre {
+	display: block;
+	padding: 10px;
+	margin: 25px 0 30px 0;
+	font-size: 13px;
+	line-height: 1.42857143;
+	color: #c7254e;
+	word-break: break-all;
+	word-wrap: break-word;
+	background-color: #f9f2f4;
+	border: 1px solid #f7b7c9;
+	border-radius: 5px;
+	font-family: inherit;
+	text-align: left;
+}
+
+pre.success {
+	display: block;
+	padding: 10.5px;
+	margin: 25px 0 30px 0;
+	font-size: 13px;
+	line-height: 1.42857143;
+	word-break: break-all;
+	word-wrap: break-word;
+	color: #468847;
+	background-color: #DFF0D8;
+	border: 1px solid #D6E9C6;
+	border-radius: 5px;
+	font-family: inherit;
+	text-align: left;
+}
